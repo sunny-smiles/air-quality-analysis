@@ -28,7 +28,7 @@ def create_wind_effect_df(df):
     return wind_effect_df
 
 #load data
-main_data = pd.read_csv('Dashboardmain_data.csv')
+main_data = pd.read_csv('main_data.csv')
 
 #konversi kolom datetime (memastikan agar berformat datetime)
 main_data['datetime'] = pd.to_datetime(main_data['datetime'])
